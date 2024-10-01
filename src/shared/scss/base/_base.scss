@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+
+    &::-webkit-scrollbar {
+        width: 5px;
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #002256cf;
+        border-radius: 10px 0 0 10px;
+
+        &:hover {
+            background: #002356;
+        }
+    }
+}
